@@ -30,8 +30,8 @@ def count_sentences
 # puts self.split(/[?.!]/)
 # puts self
 sentence = []
-self.split(/[?.!]/).map {|words| sentence<< words!=' ' }
-puts sentence.strip
+self.split(/[?.!]/).each {|words| puts words }
+#puts sentence.strip
 sentence.count
 end
 end
