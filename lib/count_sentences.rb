@@ -18,7 +18,7 @@ class String
     self.split('').map do |words| 
       if words.end_with?(".")
         words.split(".")
-      elsif words.end_with('?')
+      elsif words.end_with?('?')
         words.split("?")
       elsif words.end_with?("!")
         words.split("!")
