@@ -26,6 +26,6 @@ def count_sentences
 #   end
 # end
 #   puts count
-self.strip.split(/(\.|\?|\!)/).count
+puts self.strip.split(/(\.|\?|\!)/).count
 end
 end
