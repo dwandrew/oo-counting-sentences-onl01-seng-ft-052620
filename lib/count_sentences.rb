@@ -26,4 +26,5 @@ class String
 #   end
 # end
 #   puts count
+self.strip.split(/(\.|\?|\!)/).count
 end
