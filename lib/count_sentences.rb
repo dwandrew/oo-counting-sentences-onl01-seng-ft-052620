@@ -31,7 +31,7 @@ def count_sentences
 # puts self
 sentence = []
 self.split(/[?.!]/).map {|words| sentence<< words!=' ' }
-puts sentence
+puts sentence.strip
 sentence.count
 end
 end
