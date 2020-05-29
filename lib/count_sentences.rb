@@ -27,9 +27,7 @@ def count_sentences
 # end
 #   puts count
 #puts self.split(/(\.|\?|\!)/)
-whitespace = self.map {|word| word.strip.split(/[ ?!.]/)}
-
-puts whitespace
-whitespace.count
+puts self.end_with?(/[?.!]/)
+puts self
 end
 end
