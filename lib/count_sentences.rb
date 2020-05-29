@@ -22,7 +22,7 @@ class String
         words.split("?")
       if words.end_with?("!")
         words.split("!")
-    end
+      end
   end
   
 end
