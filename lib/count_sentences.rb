@@ -24,5 +24,6 @@ class String
         words.split("!")
       end
   end
+end
   
 end
