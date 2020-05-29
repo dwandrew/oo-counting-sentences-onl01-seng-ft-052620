@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    puts self.split('.').map {|words| words.split("?")}
+    puts self.split('.').map {|words| words.split("?")}.map{|words| words.split('!')}
     self.split('.').count
   end
 end
