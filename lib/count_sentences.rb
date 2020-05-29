@@ -32,5 +32,6 @@ puts self
 sentence = []
 self.split(/[?.!]/).map {|words| sentence<< words !=' ' }
 puts sentence
+sentence.count
 end
 end
