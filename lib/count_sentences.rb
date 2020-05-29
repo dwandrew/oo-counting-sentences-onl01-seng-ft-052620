@@ -27,7 +27,7 @@ def count_sentences
 # end
 #   puts count
 #puts self.split(/(\.|\?|\!)/)
-puts self.end_with?(/[?.!]/)
+puts self.split(/[?.!]/)
 puts self
 end
 end
