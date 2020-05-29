@@ -16,6 +16,6 @@ class String
 
   def count_sentences
     puts self.split(' ')
-    self.split(' ').count
+    self.split(' ','.', '!', '?').count
   end
 end
