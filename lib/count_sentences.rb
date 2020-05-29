@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    self.split('').map do |words| 
+  count=  self.split('').map do |words| 
       if words.end_with?(".")
         words.split(".")
       elsif words.end_with?('?')
@@ -25,5 +25,5 @@ class String
       end
   end
 end
-  
+  count.count
 end
