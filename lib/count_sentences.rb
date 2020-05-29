@@ -29,7 +29,7 @@ def count_sentences
 #puts self.split(/(\.|\?|\!)/)
 whitespace = self.split(' ')
 
-puts self.split(/[?,!,.]/)
+puts self.split(/[?!.]/)
 whitespace.count
 end
 end
