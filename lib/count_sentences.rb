@@ -15,15 +15,15 @@ class String
   end
 
   def count_sentences
-  count = self.split('').map do |words| 
-      if words.end_with?(".")
-        words.split(".")
-      elsif words.end_with?('?')
-        words.split("?")
-      elsif words.end_with?("!")
-        words.split("!")
-      end
-  end
-end
-  puts count
+#   count = self.split('').map do |words| 
+#       if words.end_with?(".")
+#         words.split(".")
+#       elsif words.end_with?('?')
+#         words.split("?")
+#       elsif words.end_with?("!")
+#         words.split("!")
+#       end
+#   end
+# end
+#   puts count
 end
