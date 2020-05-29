@@ -29,6 +29,7 @@ def count_sentences
 #puts self.split(/(\.|\?|\!)/)
 puts self.split(/[?.!]/)
 puts self
-self.split(/[?.!]/).count
+sentence = []
+self.split(/[?.!]/).count.map {|words| words !=' ' }
 end
 end
